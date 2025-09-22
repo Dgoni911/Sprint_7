@@ -19,3 +19,11 @@ class TestData:
                 base_data["color"] = [color]
         
         return base_data
+    
+    @staticmethod
+    def get_invalid_courier_ids():
+        return ["", "invalid_id", "9999999999", None]
+    
+    @staticmethod
+    def get_invalid_order_ids():
+        return ["", "invalid_order_id", "9999999999", None]
